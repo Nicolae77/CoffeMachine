@@ -1,4 +1,4 @@
-MENU = {
+MENUS = {
     "espresso": {
         "ingredients": {
             "water": 50,
