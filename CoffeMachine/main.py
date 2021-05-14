@@ -72,6 +72,8 @@ while is_on:
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
         print(f"Money: £{profit}")
+    elif choice == '':
+        print("You must to select (espresso/latte/cappuccino), report or off ")
     else:
         drink = MENU[choice]
         if is_resource_sufficient(drink["ingredients"]):
