@@ -1,5 +1,5 @@
 MENU = {
-    "espresso": {
+    "machiato": {
         "ingredients": {
             "water": 50,
             "coffee": 18,
